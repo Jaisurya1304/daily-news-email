@@ -24,4 +24,4 @@ for article in c["articles"][:15]:
 body = body.encode("utf-8")
 send_email(message=body)
 
-print(body)
+#print(body)
